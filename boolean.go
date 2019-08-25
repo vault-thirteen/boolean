@@ -31,7 +31,9 @@ const (
 
 const ErrfBadBoolean = "Bad boolean value: '%v'."
 
-func StringToBoolean(str string) (bool, error) {
+func StringToBoolean(
+	str string,
+) (bool, error) {
 
 	var err error
 
